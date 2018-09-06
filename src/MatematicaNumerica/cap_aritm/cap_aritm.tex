@@ -53,7 +53,7 @@ ans =  26.625
 
 \subsection{Mudança de base}
 
-Um mesmo número pode ser representado em diferentes bases e, aqui, estudaremos como obter a representação de uma número em diferentes bases. A mudança de base de representação de um dado número pode ser feita de várias formas. De forma geral, se temos um número $x$ representado na base $b_1$ e queremos obter sua representação na base $b_2$, fazemos
+Um mesmo número pode ser representado em diferentes bases e, aqui, estudaremos como obter a representação de um número em diferentes bases. A mudança de base de representação de um dado número pode ser feita de várias formas. De forma geral, se temos um número $x$ representado na base $b_1$ e queremos obter sua representação na base $b_2$, fazemos
 \begin{enumerate}
 \item Calculamos a representação do número $x$ na base decimal.
 \item Da calculada representação decimal, calculamos a representação de $x$ na base $b_2$.
@@ -432,7 +432,7 @@ onde $d_i$, $i=n, \ldots, 1, 0, -1, \ldots$, são algarismos da base 10. A parte
   O número $31,515$ pode ser representado em notação científica das seguintes formas
   \begin{align}
     31,515\times 10^0 &= 3,1515\times 10^{1} \\
-                      &= 315,15\times 10^{-2} \\
+                      &= 315,15\times 10^{-1} \\
                       &= 0,031515\times 10^{3},
   \end{align}
 entre outras tantas possibilidades.
@@ -517,7 +517,7 @@ Por padrão no \verb+GNU Octave+, números em ponto flutuante são arredondados 
 
 \section{Tipos e medidas de erros}\label{cap_aritm_sec_erros}
 
-Ao utilizarmos computadores na resolução de problemas matemáticos, acabamos obtendo soluções aproximadas aproximadas. A diferença entre a solução exata e a computada solução aproximada é chamada de erro. O erro é comumente classificado nas seguintes duas categorias:
+Ao utilizarmos computadores na resolução de problemas matemáticos, acabamos obtendo soluções aproximadas. A diferença entre a solução exata e a computada solução aproximada é chamada de erro. O erro é comumente classificado nas seguintes duas categorias:
 \begin{itemize}
 \item \emph{Erro de arredondamento}\index{erro de!arredondamento}. Este é o erro que ocorre na representação aproximada de números na máquina.
 \item \emph{Erro de truncamento}\index{erro de!truncamento}. Este é o erro que ocorre na interrupção (truncamento) de um procedimento com infinitos passos.
@@ -643,7 +643,7 @@ donde concluímos que $\tilde{x}=1,5$ é uma aproximação com zero dígito sign
 
 \section{Propagação de erros}\label{cap_aritm_sec_properros}
 
-Nesta seção, vamos introduzir uma estimativa para a propagação de erros (de arredondamento) na computação de um problema. Para tando, vamos considerar o caso de se calcular o valor de uma dada função $f$ em um dado ponto $x$, i.e. queremos calcular $y$ com
+Nesta seção, vamos introduzir uma estimativa para a propagação de erros (de arredondamento) na computação de um problema. Para tanto, vamos considerar o caso de se calcular o valor de uma dada função $f$ em um dado ponto $x$, i.e. queremos calcular $y$ com
 \begin{equation}\label{eq:properros_aux1}
   y = f(x).
 \end{equation}
